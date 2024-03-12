@@ -32,13 +32,13 @@ public class Sorting{
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int cnt = 0;
+        int count = 0;
         for(int i = 0;i < n;i++){
             if(arr[i] > num)
             break;
             if(arr[i] == num)
-            cnt += 1;
+            count += 1;
         }
-        System.out.println("Number of occurrences : " + cnt);
+        System.out.println("Number of occurrences : " + count);
     }    
 }
