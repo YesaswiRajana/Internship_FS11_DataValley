@@ -1,3 +1,6 @@
+//Polymorphism
+//1)Create a base class Animal with a method makeSound(). Create two derived classes Dog and Cat that override the makeSound() method. Illustrate runtime polymorphism by creating objects of both derived classes and invoking the method.
+
 class Animal
 {
     public void makesound()
@@ -8,13 +11,13 @@ class Animal
 class Dog extends Animal{
     public void makesound()
     {
-        System.out.println("Barking");
+        System.out.println("Dog Barks");
     }
 }
 class Cat extends Animal{
     public void makesound()
     {
-        System.out.println("Barking");
+        System.out.println("Cat Meow");
     }
 }
 class Main
